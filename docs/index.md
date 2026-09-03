@@ -19,10 +19,10 @@ CHECKLIST FOR THIS PAGE:
 
 
 <div class="hero">
-  <img src="assets/images/profile.png" alt="[YOUR NAME]" class="profile-photo">
-  <h1>[YOUR NAME]</h1>
-  <p><strong>[YOUR JOB TITLE]</strong></p>
-  <p><em>[YOUR TAGLINE — e.g., Turning spatial data into insights | GIS | Remote Sensing | Python]</em></p>
+  <img src="assets/images/profile.png" alt="Ashwary Banik Dolan" class="profile-photo">
+  <h1>Ashwary Banik Dolan</h1>
+  <p><strong>Hydrogeologist & Geospatial Researcher </strong></p>
+  <p><em>GIS | Remote Sensing | Groundwater Modeling | Python | Machine Learning</em></p>
 </div>
 
 ---
@@ -32,15 +32,8 @@ CHECKLIST FOR THIS PAGE:
 <div class="about-section" markdown>
 <div class="about-text" markdown>
 
-[Replace this paragraph with your own bio. Write 3–4 sentences covering: your background and
-what you specialize in, the kinds of problems you work on, the tools and methods you use,
-and what you are currently looking for. Example below:]
 
-I am a geospatial data scientist with a background in remote sensing and machine learning.
-I work on extracting actionable insights from satellite imagery and large spatial datasets
-using Python, Google Earth Engine, and open-source GIS tools. I am passionate about applying
-GeoAI techniques to real-world challenges in land use mapping, climate monitoring, and urban
-planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TARGET LOCATION].
+Geology graduate with a strong foundation in GIS, remote sensing, spatial analysis and field based environmental research. Experienced in combining field observations with computational analyses, geospatial modeling, Python, and machine learning to investigate groundwater systems, land use land cover change and natural hazards. My research interests are increasingly focused on climate  extremes, climate related hazards and hydrologic systems, with a goal of developing stronger expertise in advanced computational methods, risk  and uncertainty assessment.
 
 </div>
 
@@ -53,7 +46,7 @@ planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TA
 ---
 
 [View My Projects :material-arrow-right:](projects/index.md){ .md-button .md-button--primary }
-[Download CV :material-download:](assets/[YOUR-NAME]-CV.pdf){ .md-button }
+[Download CV :material-download:](assets/ashwary-CV.pdf){ .md-button }
 
 
 ---
@@ -67,50 +60,57 @@ planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TA
     ---
 
     - QGIS, ArcGIS Pro, Google Earth Engine
-    - GDAL / OGR, GRASS GIS
-    - Multispectral and SAR image analysis
-    - Cloud Native Geospatial (COG, STAC, Zarr)
+    - ENVI, ERDAS IMAGINE, SNAP
+    - GDAL, Rasterio, Xarray 
+    - Data formats: GeoJSON, GeoTIFF, NetCDF
+    - Multispectral & Sentinel time series analysis
+    - LULC classification (103-class, plot-level)
+    - FLUS , PLUS model — future LULC prediction
+
+-   :material-water:{ .lg .middle } **Hydrologic & Climate Modeling**
+
+    ---
+
+    - MODFLOW 6, Model Muse, WetSpass, SWAT, HEC-HMS
+    - Hydrochemical & Water quality analysis
+    - WRF, CMIP6, ECMWF
+    - Ensemble & Downscaling
+
+-   :material-terrain:{ .lg .middle } **Geophysical & Geotechnical**
+
+    ---
+
+    - VES, ERT surveys
+    - SPT analysis, Soil profiling, Bearing capacity assessment
+    - GeoStudio
+    - Stratigraphic logging, Structural mapping
 
 -   :material-code-braces:{ .lg .middle } **Programming**
 
     ---
 
-    - Python — GeoPandas, NumPy, Pandas, Matplotlib
+    - Python — GeoPandas, NumPy, Pandas, Matplotlib ,Seaborn
     - R — sf, terra, ggplot2
-    - JavaScript — Leaflet, MapLibre GL
-    - SQL, PostgreSQL + PostGIS
+    - JavaScript
+
 
 -   :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
 
     ---
 
-    - Supervised classification — Random Forest, XGBoost
-    - Deep learning for image segmentation — U-Net, SAM
+    - Supervised classification 
     - scikit-learn, PyTorch, TensorFlow
     - Object detection in satellite imagery
 
--   :material-earth:{ .lg .middle } **Web Mapping & Data**
+
+-   :material-palette:{ .lg .middle } **Visualization & Cartography**
 
     ---
 
-    - Leaflet.js, Folium, MapLibre GL JS
-    - Cloud storage — AWS S3, Google Cloud Storage
-    - Data formats — GeoTIFF, GeoParquet, NetCDF
-    - Streamlit for data-driven web apps
+    - Power BI, Mapbox
+    - Adobe Illustrator, Photoshop, Lightroom
 
--   :material-database:{ .lg .middle } **Data & Cloud**
 
-    ---
-
-    - PostgreSQL + PostGIS
-    - Cloud storage: AWS S3, Google Cloud Storage
-    - Data formats: GeoJSON, GeoTIFF, NetCDF, Zarr, GeoParquet
-
--   :material-airplane:{ .lg .middle } **Drone / UAV Data Processing**
-
-    - Mission planning and flight operations
-    - Photogrammetry: Agisoft Metashape, OpenDroneMap
-    - Point cloud processing: CloudCompare, PDAL
 </div>
 
 
@@ -118,5 +118,5 @@ planning. I am currently seeking opportunities in [YOUR TARGET ROLE] in [YOUR TA
 
 ## Connect
 
-[GitHub](https://github.com/[YOUR-GITHUB-USERNAME]){ .md-button }
-[LinkedIn](https://linkedin.com/in/[YOUR-LINKEDIN-USERNAME]){ .md-button }
+[GitHub](https://github.com/AshwaryBanik){ .md-button }
+[LinkedIn](https://linkedin.com/in/ashwarybanik/){ .md-button }
