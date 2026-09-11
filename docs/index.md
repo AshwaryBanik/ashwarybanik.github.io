@@ -22,7 +22,7 @@ CHECKLIST FOR THIS PAGE:
   <img src="assets/images/profile.png" alt="Ashwary Banik Dolan" class="profile-photo">
   <h1>Ashwary Banik Dolan</h1>
   <p><strong>Hydrogeologist & Geospatial Researcher </strong></p>
-  <p><em>GIS | Remote Sensing | Groundwater Modeling | Python | Machine Learning</em></p>
+  <p><em>GIS | Remote Sensing | Groundwater Modeling  | Machine Learning</em></p>
 </div>
 
 ---
@@ -32,8 +32,7 @@ CHECKLIST FOR THIS PAGE:
 <div class="about-section" markdown>
 <div class="about-text" markdown>
 
-
-Geology graduate with a strong foundation in GIS, remote sensing, spatial analysis and field based environmental research. Experienced in combining field observations with computational analyses, geospatial modeling, Python, and machine learning to investigate groundwater systems, land use land cover change and natural hazards. My research interests are increasingly focused on climate  extremes, climate related hazards and hydrologic systems, with a goal of developing stronger expertise in advanced computational methods, risk  and uncertainty assessment.
+Geology graduate with experience in GIS, remote sensing, spatial analysis, and environmental fieldwork. I use geospatial analysis, hydrogeological modeling, and machine learning to study groundwater systems, hydrological extremes, land use change, and natural hazards.
 
 </div>
 
@@ -71,7 +70,7 @@ Geology graduate with a strong foundation in GIS, remote sensing, spatial analys
 
     ---
 
-    - MODFLOW 6, Model Muse, WetSpass, SWAT, HEC-HMS
+    - MODFLOW 6, Model Muse, WetSpass, SWAT, RockWorks, HEC-HMS
     - Hydrochemical & Water quality analysis
     - WRF, CMIP6, ECMWF
     - Ensemble & Downscaling
