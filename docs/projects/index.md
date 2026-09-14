@@ -86,7 +86,7 @@ Developed a regional 3D groundwater flow model to investigate long-term groundwa
 
 
 <div class="project-card" markdown>
-![](../assets/images/gw-stress-final.png)
+![](../assets/images/gw-stress-final.jpg)
 
 **[Groundwater Stress and Vulnerability Assessment](gw_stress.md)**
 
@@ -101,7 +101,7 @@ Assessed groundwater stress and vulnerability in Muradnagar Upazila by comparing
 
 <div class="project-card" markdown>
 
-![](../assets/images/aquifer.png)
+![](../assets/images/aquifer.jpg)
 
 **[Aquifer Geometry Analysis Using RockWorks](aquifer.md)**
 

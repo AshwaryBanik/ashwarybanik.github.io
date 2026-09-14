@@ -1,6 +1,6 @@
 # Groundwater Stress and Vulnerability Assessment of Muradnagar Upazila
 
-![Groundwater stress map](../../assets/images/gw-stress-final.png)
+![Groundwater stress map](../../assets/images/gw-stress-final.jpg)
 
 ## Overview
 
@@ -27,35 +27,35 @@ Assessed groundwater stress and vulnerability in Muradnagar Upazila by comparing
 1. **Settlement & Cropland Mapping**  
     Prepared settlement and cropland maps from land-cover data.
 
-    ![Settlement and cropland mapping](../../assets/images/cropland.png)
+    ![Settlement and cropland mapping](../../assets/images/cropland.jpg)
 
     
 
 2. **Domestic Water Demand**  
     Estimated drinking-water demand using population distribution and an assumed consumption rate of **50 L/person/day**.
 
-    ![Domestic groundwater demand](../../assets/images/domestic-demand.png)
+    ![Domestic groundwater demand](../../assets/images/domestic-demand.jpg)
 
     
 
 3. **Irrigation Water Demand**  
     Estimated groundwater requirement for irrigation from mapped cropland area.
 
-    ![Irrigation groundwater demand](../../assets/images/irrigation-demand.png)
+    ![Irrigation groundwater demand](../../assets/images/irrigation-demand.jpg)
 
     
 
 4. **Total Groundwater Use**  
     Combined domestic and irrigation demand to prepare the total groundwater-use map.
 
-    ![Total groundwater use](../../assets/images/total-use.png)
+    ![Total groundwater use](../../assets/images/total-use.jpg)
 
     
 
 5. **Groundwater Availability**  
     Used spatial groundwater recharge estimated from the **WetSpass model** to represent renewable groundwater availability.
 
-    ![Groundwater recharge](../../assets/images/recharge.png)
+    ![Groundwater recharge](../../assets/images/recharge.jpg)
 
     
 
@@ -68,7 +68,7 @@ Assessed groundwater stress and vulnerability in Muradnagar Upazila by comparing
 
     
 
-    ![Groundwater stress and vulnerability](../../assets/images/gw-stress-final.png)
+    ![Groundwater stress and vulnerability](../../assets/images/gw-stress-final.jpg)
 
     
 
