@@ -4,11 +4,11 @@
 <div class="project-slider">
 
   <div class="project-slide">
-    <img src="../../assets/images/rockworks-cross-section-1.png" alt="Project image 1">
+    <img src="../../assets/images/rockworks-cross-section-1.jpg" alt="Project image 1">
   </div>
 
   <div class="project-slide">
-    <img src="../../assets/images/rockworks-cross-section-2.png" alt="Project image 2">
+    <img src="../../assets/images/rockworks-cross-section-2.jpg" alt="Project image 2">
   </div>
 </div>
 
