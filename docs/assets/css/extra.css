@@ -403,29 +403,7 @@
 
 body {
 
-  background-image: url("../../assets/images/background.jpg");
-
-  background-size: cover;
-
-  background-position: center;
-
-  background-attachment: fixed;
-
-}
-
-body {
-
-  background:
-
-    linear-gradient(rgba(255,255,255,0.80), rgba(255,255,255,0.80)),
-
-    url("../../assets/images/background.jpg");
-
-  background-size: cover;
-
-  background-position: center;
-
-  background-attachment: fixed;
+  background: var(--md-default-bg-color);
 
 }
 
@@ -477,7 +455,7 @@ body {
 
   --md-accent-fg-color: #43A0E8;
 
-  --md-default-bg-color: #F0F8FF;
+  --md-default-bg-color: #FFFFFF;
 }
 
 
@@ -485,21 +463,7 @@ body {
 
 [data-md-color-scheme="default"] .md-main {
 
-  background:
-    linear-gradient(
-      135deg,
-      rgba(240, 248, 255, 0.70) 0%,
-      rgba(224, 242, 247, 0.65) 25%,
-      rgba(149, 201, 242, 0.55) 50%,
-      rgba(67, 160, 232, 0.45) 75%,
-      rgba(28, 96, 156, 0.35) 100%
-    ),
-    url("../images/background.png");
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: #FFFFFF;
 }
 
 
@@ -552,21 +516,7 @@ body {
 
 [data-md-color-scheme="slate"] .md-main {
 
-  background:
-    linear-gradient(
-      135deg,
-      rgba(13, 8, 33, 0.70) 0%,
-      rgba(22, 26, 48, 0.65) 25%,
-      rgba(23, 42, 71, 0.55) 50%,
-      rgba(31, 58, 91, 0.45) 75%,
-      rgba(63, 92, 127, 0.35) 100%
-    ),
-    url("../images/background_night.png");
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: rgba(23, 42, 71, 0.55);
 }
 
 
@@ -671,4 +621,179 @@ body {
 [data-md-color-scheme="slate"] .hero strong,
 [data-md-color-scheme="slate"] .hero span {
   color: #1a2530;
+}
+
+/* =========================================================
+   HOME: RESEARCH WORK
+   ========================================================= */
+
+.home-research {
+  --home-title: #172A47;
+  --home-text: #45566B;
+  --home-link: #1C609C;
+  --home-tag-bg: #EAF3FB;
+  --home-rule: #DFE8F0;
+  --home-shadow: 0 12px 30px rgba(23, 42, 71, 0.10);
+  margin-top: 1.5rem;
+}
+
+[data-md-color-scheme="slate"] .home-research {
+  --home-title: #F0F8FF;
+  --home-text: #D0DDEA;
+  --home-link: #95C9F2;
+  --home-tag-bg: #1F3A5B;
+  --home-rule: #30465F;
+  --home-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.md-typeset .home-project {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: clamp(1.25rem, 3vw, 2.75rem);
+  align-items: center;
+  padding: 2rem 0;
+  border-top: 1px solid var(--home-rule);
+  color: var(--home-text);
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Alternate the image and text on desktop. */
+.md-typeset .home-project:nth-child(even) {
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+}
+
+.home-project:nth-child(even) .home-project-image {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.home-project:nth-child(even) .home-project-content {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.home-project-image {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--home-rule);
+  border-radius: 12px;
+  background: #FFFFFF;
+  box-shadow: var(--home-shadow);
+  transition: transform 0.2s ease;
+}
+
+/* Keep maps and figure legends visible without cropping. */
+.md-typeset .home-project-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.home-project-content {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.home-project-label {
+  display: inline-block;
+  margin-bottom: 0.7rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  background: var(--home-tag-bg);
+  color: var(--home-link);
+  font-size: 0.58rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.md-typeset .home-project h3 {
+  margin: 0 0 0.7rem;
+  color: var(--home-title);
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  font-weight: 700;
+  line-height: 1.3;
+  transition: color 0.2s ease;
+}
+
+.md-typeset .home-project p {
+  margin: 0 0 0.65rem;
+  color: var(--home-text);
+  font-size: 0.8rem;
+  line-height: 1.75;
+}
+
+.home-project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+
+.home-project-tags > span {
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  background: var(--home-tag-bg);
+  color: var(--home-text);
+  font-size: 0.62rem;
+  line-height: 1.5;
+}
+
+.home-project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 1rem;
+  color: var(--home-link);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.md-typeset .home-project:hover h3,
+.md-typeset .home-project:focus-visible h3 {
+  color: var(--home-link);
+}
+
+.home-project:hover .home-project-link,
+.home-project:focus-visible .home-project-link {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.md-typeset .home-project:focus-visible {
+  outline: 3px solid var(--home-link);
+  outline-offset: 6px;
+  border-radius: 4px;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .home-project:hover .home-project-image {
+    transform: translateY(-4px);
+  }
+}
+
+/* Stack every project image above its text on smaller screens. */
+@media screen and (max-width: 760px) {
+  .md-typeset .home-project,
+  .md-typeset .home-project:nth-child(even) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.2rem;
+    padding: 1.5rem 0;
+  }
+
+  .home-project:nth-child(even) .home-project-image,
+  .home-project:nth-child(even) .home-project-content {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-project-image,
+  .md-typeset .home-project h3 {
+    transition: none;
+  }
 }
