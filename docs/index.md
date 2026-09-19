@@ -33,6 +33,8 @@ CHECKLIST FOR THIS PAGE:
   <p><em>GIS | Remote Sensing | Hydrologic Modeling  | Machine Learning</em></p>
 </div>
 
+
+
 ---
 
 ## About Me
@@ -57,10 +59,7 @@ I am a geoscientist interested in understanding how Earth and environmental syst
 [Download CV :material-download:](assets/ashwary-CV.pdf){ .md-button }
 
 
----
-Research Work
 
-My projects explore groundwater sustainability, groundwater flow, water-resource stress, and aquifer geometry through geospatial analysis and hydrogeological modeling.
 
 <div class="home-research">
 
